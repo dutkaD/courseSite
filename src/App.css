@@ -25,18 +25,26 @@
   font-size: 100px;
 }
 
-
-.english_course{
-  background-image: url('/images/london.jpg');
+.course_background {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.english_course{
+  background-image: url('/images/london.jpg');
+
+}
 .coding_course {
+  background-image: url('/images/python.jpeg');
+}
+
+.english_and_code {
   background-image: url('/images/coding.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.course_background:hover{
+  border: rgb(250, 217, 0) solid 0.5rem;
 }
 
 .headline{
@@ -66,6 +74,6 @@
 }
 
 .fill {
-  height: 100vh;
-  min-height: 100%;
+  height: 40rem;
+  /*min-height: 100%;*/
 }
