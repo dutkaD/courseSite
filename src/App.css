@@ -6,7 +6,7 @@
 }
 
 .home,
-.services,
+.courses,
 .products,
 .sign-up {
   display: flex;
@@ -16,13 +16,43 @@
   font-size: 3rem;
 }
 
-.services {
+.courses {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.course_background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.english_course{
+  background-image: url('/images/london.jpg');
+
+}
+.coding_course {
+  background-image: url('/images/python.jpeg');
+}
+
+.english_and_code {
+  background-image: url('/images/coding.jpeg');
+}
+
+.course_background:hover{
+  border: rgb(250, 217, 0) solid 0.5rem;
+}
+
+.headline{
+  color: #fff;
+  font-size: 100px;
+  background-color: rgba(36,36,36, 0.6);
+  border-radius: 2px;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .products {
@@ -41,4 +71,9 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.fill {
+  height: 40rem;
+  /*min-height: 100%;*/
 }
