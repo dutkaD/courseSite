@@ -1,6 +1,8 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  color: #242424;
+
 }
 
 h1 {
@@ -14,6 +16,8 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  color: #242424;
+
 }
 
 .cards__wrapper {
@@ -97,6 +101,10 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+
+h3{
+  padding-top: 0.5rem;
 }
 
 @media only screen and (min-width: 1200px) {
