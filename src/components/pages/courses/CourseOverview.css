@@ -7,15 +7,26 @@
 }
 
 .upper-course-part{
-    background: var(--ficus_pink);
     padding: 1rem 1rem 1rem 1rem;
     margin-left: 0;
     margin-right: 0;
 }
 
+.tntm-container-background{
+    background-image: url('/images/python.jpeg');
+}
+
+.english-container-background{
+    background-image: url('/images/london.jpg');
+}
+
+.header-background{
+    background-color: var(--transparent_background);
+}
+
 .course-page{
-    background: var(--not_fully_black);
     color: #e9e9e9;
+    padding: 0 0 0 0;
 }
 
 h1{
@@ -23,7 +34,11 @@ h1{
 }
 
 .avatar {
-    max-width: 50%
+    max-width: 50%;
+}
+
+.rounded-circle{
+    border-radius:50%;
 }
 
 .course-link {
