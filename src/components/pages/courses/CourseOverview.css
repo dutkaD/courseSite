@@ -7,14 +7,14 @@
 }
 
 .upper-course-part{
-    background: rgba(132, 1, 132, 0.7);
+    background: var(--ficus_pink);
     padding: 1rem 1rem 1rem 1rem;
     margin-left: 0;
     margin-right: 0;
 }
 
 .course-page{
-    background:rgba(28, 27, 27, 0.9);
+    background: var(--not_fully_black);
     color: #e9e9e9;
 }
 
@@ -24,6 +24,13 @@ h1{
 
 .avatar {
     max-width: 50%
+}
+
+.course-link {
+    text-decoration: none;
+}
+.course-link:hover{
+    text-decoration: none;
 }
 
 
