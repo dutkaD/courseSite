@@ -5,6 +5,16 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+:root {
+  --dirty_yellow: rgb(250, 217, 0);
+  --tntm_turkis: rgb(193, 174, 0);
+  --turkis_back: rgba(193, 170, 56, 0.1);
+  --not_fully_black: rgba(28, 27, 27, 0.9);
+  --transparent_background: rgba(36, 36, 36, 0.8);
+  --ficus_pink: rgb(132, 1, 132);
+  --ficus_pink_back: rgba(132, 1, 132, 0.4);
+}
+
 .home,
 .courses,
 .products,
@@ -44,15 +54,16 @@
 }
 
 .course_background:hover{
-  border: rgb(250, 217, 0) solid 0.5rem;
+  border: var(--dirty_yellow) solid 0.5rem;
 }
 
 .headline_course{
   color: #fff;
   font-size: 100px;
-  background-color: rgba(36,36,36, 0.6);
+  background-color: var(--transparent_background);
   border-radius: 2px;
   padding: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
 }
 
 .products {
