@@ -1,28 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import React, { useState} from 'react';
+// import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  window.addEventListener('resize', showButton);
+  // window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TNTM
-            <i class='fab fa-typo3' />
+            <i className='fas fa-glasses' />
             Ficus
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -39,7 +39,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Актуальное
               </Link>
             </li>
             <li className='nav-item'>
@@ -48,7 +48,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Courses
+                Курсы
               </Link>
             </li>
             <li className='nav-item'>
@@ -57,7 +57,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About Us
+                О нас
               </Link>
             </li>
 
@@ -71,7 +71,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {/*{button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}*/}
         </div>
       </nav>
     </>
