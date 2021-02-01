@@ -4,13 +4,15 @@ import "./Actual.css"
 function Actual() {
     return (
         <>
-            <h1>Актуальные мероприятия </h1>
+
             <div className="container">
-                <div className="card card-container">
-                    <div className="card-header bg-warning">
-                        <h2>Programming for all</h2>
-                    </div>
-                    <img className="card-img-top card-image" src="images/code.jpeg" alt="Beginner course"/>
+                <h1>Актуальные мероприятия </h1>
+                <div className="row">
+                    <div className="card card-container">
+                        <div className="card-header bg-warning">
+                            <h2>Programming for all</h2>
+                        </div>
+                        <img className="card-img-top card-image" src="images/code.jpeg" alt="Beginner course"/>
                         <div className="card-body">
                             <h4 className="card-title">Курс программирования для совсем начинающих</h4>
                             <p className="card-text">
@@ -21,7 +23,9 @@ function Actual() {
                             </p>
                             <a href="/programming-for-all" className="btn btn-warning stretched-link">Полное описание курса</a>
                         </div>
+                    </div>
                 </div>
+
             </div>
 
         </>
