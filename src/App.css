@@ -6,7 +6,7 @@
 }
 
 :root {
-  --dirty_yellow: rgba(206, 181, 4, 0.55);
+  --dirty_yellow: rgba(206, 181, 4, 0.22);
   --tntm_turkis: rgb(193, 174, 0);
   --turkis_back: rgba(193, 170, 56, 0.1);
   --not_fully_black: rgba(28, 27, 27, 0.9);
