@@ -5,10 +5,7 @@ function Actual() {
     return (
         <>
             <h1>Актуальные мероприятия </h1>
-
-
             <div className="container">
-
                 <div className="card card-container">
                     <div className="card-header bg-warning">
                         <h2>Programming for all</h2>

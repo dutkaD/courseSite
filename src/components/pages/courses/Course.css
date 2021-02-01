@@ -1,0 +1,27 @@
+.course-name-block{
+    padding: 13rem 2rem 13rem 2rem;
+    /*border-right: solid yellow;*/
+}
+
+.about-course{
+    border-bottom: solid var(--dirty_yellow);
+}
+
+.white-background{
+    background-color: white;
+    opacity: 0.95;
+
+}
+
+.course-detail{
+    border-right: solid var(--dirty_yellow);
+}
+
+.end-course-description{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.go-back-btn{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}

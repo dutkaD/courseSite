@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.padded-img-l{
+  padding-left: 0.5rem;
+}
+
 .footer-subscription {
   display: flex;
   flex-direction: column;
