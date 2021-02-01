@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TNTM
-            <i class='fas fa-glasses' />
+            <i className='fas fa-glasses' />
             Ficus
           </Link>
           <div className='menu-icon' onClick={handleClick}>

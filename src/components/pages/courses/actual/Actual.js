@@ -13,7 +13,7 @@ function Actual() {
                     <div className="card-header bg-warning">
                         <h2>Programming for all</h2>
                     </div>
-                    <img className="card-img-top card-image" src="images/code.jpeg" alt="Card image"/>
+                    <img className="card-img-top card-image" src="images/code.jpeg" alt="Beginner course"/>
                         <div className="card-body">
                             <h4 className="card-title">Курс программирования для совсем начинающих</h4>
                             <p className="card-text">
