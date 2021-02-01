@@ -21,6 +21,7 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/english_course' component={() => <EnglishCourse name="English"/>} />
           <Route path='/coding_course' component={() => <CodingCourse name="Coding"/>} />
+          <Route path='/programming-for-all' component={() => <CodingCourse name="Coding"/>} />
           <Route path='/english_and_code' component={() => <EnglishCourse name="English&Code"/>} />
         </Switch>
       </Router>
