@@ -39,7 +39,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Nerdy Ficus
-              <i className='fas fa-glasses' />
+              <i className='fas fa-glasses padded-img-l' />
             </Link>
           </div>
           <small className='website-rights'>Nerdy Ficus © 2020</small>
