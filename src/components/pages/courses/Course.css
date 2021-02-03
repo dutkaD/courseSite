@@ -9,7 +9,7 @@
 
 .white-background{
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.96;
 
 }
 
@@ -24,4 +24,31 @@
 
 .go-back-btn{
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 35rem;
+}
+
+.fill-out-btn{
+    width:50%;
+    opacity: 1;
+}
+
+.timetable{
+    padding-top: 1rem;
+}
+
+.teacher-name{
+    font-size: 1.5rem;
+}
+
+.inline-link{
+    text-decoration: none;
+    color: #1c1b1b;
+}
+
+.inline-link:hover{
+    text-decoration: none;
+    color: #746900;
+}
+.timetable-img{
+    padding-right: 0.5rem;
 }
