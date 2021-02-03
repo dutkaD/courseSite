@@ -14,16 +14,14 @@ export default function CodingCourse() {
                 <div className="col-sm my-auto">
                     <div className="card">
                         <div className="card-body">
-                            <h4 className="card-title">СТАРТ: 01.03.2021</h4>
+                            <h4 className="card-title">СТАРТ: 01.03.2021 (пн.)</h4>
                             <h4 className="card-title">Кто может учавствовать:</h4>
                             <p className="card-text"></p>
                             <h4 className="card-title">Описание: </h4>
                             <p className="card-text"></p>
-                            <h4 className="card-title">Расписание: </h4>
-                            <p className="card-text"></p>
                             <h4 className="card-title">Цена: </h4>
                             <p className="card-text"></p>
-                            <a href="/" className="btn btn-warning">Подать заявку</a>
+                            <a href="/" className="btn btn-success fill-out-btn">Заполнить форму</a>
                         </div>
                     </div>
                 </div>
@@ -39,16 +37,23 @@ export default function CodingCourse() {
             <div className="row">
                 <div className="col-sm course-detail">
                     <h2 className="text-center">Преподаватель</h2>
-                    <p>Дутка Диана</p>
+                    <div className="col-sm text-center">
+                        <img src="images/dutka.jpg" className="img-circle rounded-circle img-fluid avatar" alt="teacher"/>
+                        <p className="teacher-name">Дутка Диана</p>
+                        <p><i className="fab fa-linkedin"/> <a  className="inline-link" href="https://www.linkedin.com/in/dianadutka/">Перейти на LinkedIn</a></p>
+                    </div>
                 </div>
                 <div className="col-sm">
                     <h2 className="text-center">Расписание</h2>
                     <h5>Курс состоит из 5-ти занятий: </h5>
-                        <p>01.03 понеделник</p>
-                        <p>03.03 среда</p>
-                        <p>10.03 среда</p>
-                        <p>15.03 понеделник</p>
-                        <p>22.03 понеделник</p>
+                    <div className="timetable">
+                        <p> <i className="fas fa-book-open timetable-img"/>01.03.2021 понеделник</p>
+                        <p><i className="fas fa-book-reader timetable-img"/>03.03.2021 среда</p>
+                        <p><i className="fas fa-chalkboard-teacher timetable-img"/>10.03.2021 среда</p>
+                        <p><i className="fas fa-laptop-code timetable-img"/>15.03.2021 понеделник</p>
+                        <p><i className="fas fa-graduation-cap timetable-img"/>22.03.2021 понеделник</p>
+                    </div>
+
                 </div>
             </div>
             <div className="row justify-content-center end-course-description">
