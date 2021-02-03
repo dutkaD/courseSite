@@ -1,7 +1,67 @@
-.card-container{
-    width: 27rem
-}
 
 .card-image{
-    width: 100%;
+    /*width: 100%;*/
+    height: 16rem;
+    object-fit: cover;
 }
+
+.row{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.warning {
+    color: darkred;
+    font-size: 15px;
+}
+
+.card-header-color{
+    color: #000000 !important;
+    background-color: #DFD9CC  !important;
+}
+
+.no-deadline{
+    color: rgba(88, 147, 0, 0);
+    font-size: 15px;
+}
+
+.course-details{
+    margin-bottom: 1rem;
+}
+
+.course-details p{
+    padding-bottom: 2px;
+}
+
+
+h1{
+    padding: 2rem 0 1rem 0;
+}
+
+.card-container{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 100%
+}
+
+.card-body{
+    padding-bottom: 1rem;
+}
+
+.start{
+    font-size: 1.2rem;
+}
+
+.course-link {
+    text-decoration: none;
+    color: #1c1b1b;
+}
+
+.course-link:hover{
+    text-decoration: none;
+    color: #1c1b1b;
+}
+
+.card-container:hover{
+    border:solid 1px rgba(219, 173, 57, 0.74);
+}
+
