@@ -34,6 +34,28 @@
   font-size: 1.8rem;
 }
 
+.ficus{
+  color: #2ABDA6;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.fa-gradient {
+  background: linear-gradient(to right, #f0ad4e , #2ABDA6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nerdy{
+  color: #f0ad4e;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);

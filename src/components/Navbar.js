@@ -29,9 +29,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Nerdy
-            <i className='fas fa-glasses' />
-            Ficus
+            <sapan className="nerdy">Nerdy</sapan>
+            <i className='fas fa-glasses fa-gradient' />
+            <span className="ficus">Ficus</span>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -40,15 +40,6 @@ function Navbar() {
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Актуальное
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/courses'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Курсы
               </Link>
             </li>
             <li className='nav-item'>

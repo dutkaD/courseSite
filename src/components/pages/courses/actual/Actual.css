@@ -14,10 +14,18 @@
     font-size: 15px;
 }
 
-.card-header-color{
+.ficus-theme{
     color: #000000 !important;
-    background-color: #DFD9CC  !important;
+    background-color: #2ABDA6  !important;
 }
+
+.nerdy-theme{
+    color: #000000 !important;
+    background-color: #f0ad4e !important;
+
+}
+
+
 
 .no-deadline{
     color: rgba(88, 147, 0, 0);
