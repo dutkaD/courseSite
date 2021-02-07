@@ -6,7 +6,7 @@ export default function CourseCard(props) {
     return <div className="col">
         <Link className="course-link" to={props.linkTo}>
             <div className="card card-container">
-                <div className={"card-header " + (props.current ? "bg-warning " : "card-header-color")}>
+                <div className={"card-header " + (props.current ? "nerdy-theme" : "ficus-theme")}>
                     <h2>{props.header}</h2>
                 </div>
                 <img className="card-img-top card-image" src={props.image} alt="course description"/>
@@ -18,7 +18,7 @@ export default function CourseCard(props) {
                         <p className="start">Цена: {props.price}</p>
                     </div>
                 </div>
-                <a href={props.linkTo} className="btn btn-warning stick-bottom ">{props.buttonText}</a>
+                <a href={props.linkTo} className={"btn stick-bottom " + (props.current ? "nerdy-theme " : "ficus-theme")}>{props.buttonText}</a>
             </div>
         </Link>
 
