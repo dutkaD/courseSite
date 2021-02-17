@@ -7,6 +7,7 @@ import SignUp from './components/pages/SignUp';
 import EnglishCourse from "./components/pages/courses/coursesPages/EnglishCourse";
 import CodingCourse from "./components/pages/courses/coursesPages/CodingCourse";
 import AboutUs from "./components/pages/courses/aboutUs/AboutUs";
+import CourseMaterial from "./components/pages/courses/courseMaterial/CourseMaterial";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/english_course' component={() => <EnglishCourse name="English"/>} />
           <Route path='/programming-for-all' component={() => <CodingCourse />} />
           <Route path='/english_and_code' component={() => <CodingCourse />} />
+          <Route path='/resources' component={() => <CourseMaterial />} />
         </Switch>
       </Router>
     </>
