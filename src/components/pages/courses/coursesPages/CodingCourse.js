@@ -104,7 +104,7 @@ export default function CodingCourse() {
                 </div>
             </div>
             <div className="row justify-content-center end-course-description">
-                <a className="btn btn-warning" href="https://forms.gle/6mXS6bwMM26T4aPm9">Подать зявку на курс</a>
+                <a className="btn btn-warning" href="https://forms.gle/6mXS6bwMM26T4aPm9">Подать заявку на курс</a>
             </div>
             <div className="row go-back-btn">
                 <a className="btn btn-dark" href="/"><i className="far fa-hand-point-left"/> Обратно ко всем
